@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sriracha&display=swap");
+
+.hero-body {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.triangle-check {
+  height: calc(100vh-72px);
+}
+
+.hero-body .primary-label {
+  color: var(--primary-label-color);
+  font-weight: 600;
+  font-size: xx-large;
+}
+
+.hero-body .secondary-label {
+  color: var(--primary-color);
+  font-weight: 400;
+  font-size: x-large;
+  margin-top: 16px;
+}
+
+.hero-body input {
+  width: 30%;
+  font-size: 28px;
+  height: 32px;
+  border-style: none;
+  border-radius: 0.25rem;
+  border: 2px solid var(--primary-color);
+  padding: 2px 4px;
+}
+
+.primary-button {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 24px;
+  padding: 8px 16px;
+  border-style: none;
+  margin-top: 18px;
+}
+
+.quiz {
+  width: 70%;
+  margin: auto;
+}
+
+.quiz-question {
+  margin-top: 10px;
+}
+
+.quiz-question-item {
+  margin-bottom: 5px;
+}
+
+#options-list {
+  display: flex;
+  list-style: none;
+  flex-flow: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+#options-list label {
+  display: inline-block;
+  vertical-align: middle;
+  justify-content: center;
+}
+
+#options-list input {
+  width: 40px;
+  height: 20px;
+  justify-content: center;
+}
