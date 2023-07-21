@@ -62,13 +62,30 @@ nav ul li button {
 }
 
 footer {
-  display: flex;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
-  align-items: center;
+  display: flex;
   justify-content: center;
-  margin-top: 40px;
-  /* Styles for the footer */
+}
+
+footer p {
+  height: 2rem;
+  padding-top: 1rem;
+}
+
+footer ul {
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer img {
+  max-width: 2rem;
+  max-height: 2rem;
 }
